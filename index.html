@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElGaymer | Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <h1 class="logo-text">El<span class="text-accent">Gaymer</span></h1>
+            <p>Tu portal al gaming clásico y moderno</p>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+        <section id="productos" class="catalog-section">
+            <h2>Productos Destacados</h2>
+            <p>Descubre nuestra selección de consolas y juego.</p>
+
+            <div class="products-grid">
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/250x150" alt="Sony 1 TB" class="product-img">
+                    <div class="product-info">
+                        <h3>Playstation V</h3>
+                        <p>Juega los últimos juegos con la mejor calidad de imagen.</p>
+                        <span class="product-price">$699.990</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/250x150" alt="Microsoft 500GB" class="product-img">
+                    <div class="product-info">
+                        <h3>Xbox Series X</h3>
+                        <p>La consola de próxima generación de Microsoft con rendimiento excepcional.</p>
+                        <span class="product-price">$459.990</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img src="https://via.placeholder.com/250x150" alt="CD Projekt Red" class="product-img">
+                    <div class="product-info">
+                        <h3>Cyberpunk 2077</h3>
+                        <p>Vive la acción del mundo distópico de Night City.</p>
+                        <span class="product-price">$49.990</span>
+                        <button class="btn-buy">Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <section id="contacto" class="contact-section">
+        <h2>Atención al Cliente</h2>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Déjanos tu mensaje</legend>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motivo">Motivo de consulta:</label>
+                        <select id="motivo" name="motivo">
+                            <option value="soporte">Soporte técnico</option>
+                            <option value="ventas">Ventas y envíos</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                        <button type="reset" class="btn btn-reset">Limpiar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 ElGaymer Videojuegos.</p>
+            <ul class="footer-links">
+                <li><a href="#">Redes Sociales</a></li>
+                <li><a href="#">Dirección de contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
