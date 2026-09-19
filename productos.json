@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Playstation 5",
+        "descripcion": "Juega los últimos juegos con la mejor calidad de imagen.",
+        "precio": 699990,
+        "imagen": "ps5.jpg",
+        "categoria": "consolas"
+    },
+    {
+        "id": 2,
+        "nombre": "Xbox Series X",
+        "descripcion": "La consola de próxima generación de Microsoft con rendimiento excepcional.",
+        "precio": 459990,
+        "imagen": "xbox.jpg",
+        "categoria": "consolas"
+    },
+    {
+        "id": 3,
+        "nombre": "Cyberpunk 2077",
+        "descripcion": "Vive la acción del mundo distópico de Night City.",
+        "precio": 49990,
+        "imagen": "cyberpunk.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 4,
+        "nombre": "Nintendo Switch OLED",
+        "descripcion": "Juega en casa o en cualquier lugar con una pantalla vibrante.",
+        "precio": 349990,
+        "imagen": "switch.jpg",
+        "categoria": "consolas"
+    },
+    {
+        "id": 5,
+        "nombre": "The Legend of Zelda: Tears of the Kingdom",
+        "descripcion": "Explora los cielos y la tierra de Hyrule en esta épica aventura.",
+        "precio": 59990,
+        "imagen": "zelda.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 6,
+        "nombre": "Elden Ring",
+        "descripcion": "Adéntrate en las Tierras Intermedias en el aclamado RPG de acción.",
+        "precio": 44990,
+        "imagen": "eldenring.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 7,
+        "nombre": "Valheim",
+        "descripcion": "Un brutal juego de exploración y supervivencia multijugador, ambientado en un purgatorio generado procedimentalmente e inspirado en la cultura vikinga.",
+        "precio": 19990,
+        "imagen": "valheim.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 8,
+        "nombre": "Ghost of Tsushima",
+        "descripcion": "Forja un nuevo camino y libra una guerra poco convencional por la libertad de Tsushima.",
+        "precio": 39990,
+        "imagen": "tsushima.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 9,
+        "nombre": "Baldur's Gate 3",
+        "descripcion": "Reúne a tu grupo y regresa a los Reinos Olvidados en un relato de compañerismo y traición.",
+        "precio": 59990,
+        "imagen": "baldursgate3.jpg",
+        "categoria": "juegos"
+    },
+    {
+        "id": 10,
+        "nombre": "Stardew Valley",
+        "descripcion": "Acabas de heredar la vieja granja de tu abuelo en Stardew Valley. ¡Es hora de empezar tu nueva vida!",
+        "precio": 14990,
+        "imagen": "stardewvalley.jpg",
+        "categoria": "juegos"
+    }
+]
