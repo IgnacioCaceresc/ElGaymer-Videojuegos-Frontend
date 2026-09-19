@@ -17,19 +17,19 @@
     },
     {
         "id": 3,
-        "nombre": "Cyberpunk 2077",
-        "descripcion": "Vive la acción del mundo distópico de Night City.",
-        "precio": 49990,
-        "imagen": "cyberpunk.jpg",
-        "categoria": "juegos"
-    },
-    {
-        "id": 4,
         "nombre": "Nintendo Switch OLED",
         "descripcion": "Juega en casa o en cualquier lugar con una pantalla vibrante.",
         "precio": 349990,
         "imagen": "switch.jpg",
         "categoria": "consolas"
+    },
+    {
+        "id": 4,
+        "nombre": "Cyberpunk 2077",
+        "descripcion": "Vive la acción del mundo distópico de Night City.",
+        "precio": 49990,
+        "imagen": "cyberpunk.jpg",
+        "categoria": "juegos"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "nombre": "Elden Ring",
-        "descripcion": "Adéntrate en las Tierras Intermedias en el aclamado RPG de acción.",
+        "descripcion": "RPG de acción en un vasto mundo abierto de fantasía oscura, centrado en combates desafiantes, exploración libre y jefes memorables.",
         "precio": 44990,
         "imagen": "eldenring.jpg",
         "categoria": "juegos"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "nombre": "Baldur's Gate 3",
-        "descripcion": "Reúne a tu grupo y regresa a los Reinos Olvidados en un relato de compañerismo y traición.",
+        "descripcion": "RPG táctico por turnos basado en D&D, donde tus decisiones morales, la libertad narrativa y la estrategia definen el destino del mundo.",
         "precio": 59990,
         "imagen": "baldursgate3.jpg",
         "categoria": "juegos"
