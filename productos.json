@@ -78,5 +78,69 @@
         "precio": 14990,
         "imagen": "stardewvalley.jpg",
         "categoria": "juegos"
+    },
+    {
+        "id": 11,
+        "nombre": "Teclado Mecánico Razer BlackWidow",
+        "descripcion": "Teclado mecánico con switches verdes para un feedback táctil y sonoro ideal para gaming.",
+        "precio": 99990,
+        "imagen": "razer-keyboard.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 12,
+        "nombre": "Teclado Logitech G Pro X",
+        "descripcion": "Diseñado para profesionales de esports con switches intercambiables y diseño compacto.",
+        "precio": 119990,
+        "imagen": "logitech-keyboard.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 13,
+        "nombre": "Mouse Logitech G502 Hero",
+        "descripcion": "Mouse gaming de alto rendimiento con sensor óptico HERO 25K e iluminación RGB.",
+        "precio": 49990,
+        "imagen": "g502.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 14,
+        "nombre": "Mouse Razer DeathAdder V2",
+        "descripcion": "Ergonomía superior con switches ópticos y un diseño ligero para movimientos rápidos.",
+        "precio": 44990,
+        "imagen": "deathadder.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 15,
+        "nombre": "Audífonos HyperX Cloud II",
+        "descripcion": "Sonido envolvente 7.1 virtual con almohadillas de memory foam para máxima comodidad.",
+        "precio": 79990,
+        "imagen": "cloud2.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 16,
+        "nombre": "Audífonos Astro A40 TR",
+        "descripcion": "Calidad de audio premium diseñada para gaming profesional y transmisiones.",
+        "precio": 139990,
+        "imagen": "astro-a40.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 17,
+        "nombre": "Monitor ASUS TUF Gaming 24\"",
+        "descripcion": "Monitor de 144Hz con tiempo de respuesta de 1ms, ideal para juegos competitivos.",
+        "precio": 199990,
+        "imagen": "asus-monitor.jpg",
+        "categoria": "accesorios"
+    },
+    {
+        "id": 18,
+        "nombre": "Monitor LG UltraGear 27\"",
+        "descripcion": "Pantalla IPS con resolución QHD y 165Hz para una experiencia visual increíble.",
+        "precio": 299990,
+        "imagen": "lg-monitor.jpg",
+        "categoria": "accesorios"
     }
 ]

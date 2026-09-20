@@ -146,6 +146,27 @@ function configurarEventos() {
         document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
     });
 
+    // Filtros de categoría
+    const enlacesCategoria = document.querySelectorAll('.filtro-categoria');
+    enlacesCategoria.forEach(enlace => {
+        enlace.addEventListener('click', (e) => {
+            e.preventDefault();
+            const categoria = e.currentTarget.getAttribute('data-categoria');
+            
+            // Limpiar el buscador si había texto
+            inputBusqueda.value = '';
+
+            // Filtrar productos
+            const filtrados = productosGlobal.filter(p => p.categoria === categoria);
+
+            // Renderizar
+            renderizarProductos(filtrados);
+
+            // Hacer scroll a la sección de productos
+            document.getElementById('productos').scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+
     // Botón para vaciar todo el carrito
     const btnVaciarCarrito = document.getElementById('btn-vaciar-carrito');
     if (btnVaciarCarrito) {
